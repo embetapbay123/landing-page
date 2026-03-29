@@ -12,6 +12,12 @@ a {
     text-decoration: none;
     color: inherit;
 }
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .black-background {
     background-color: #1F2937;
     color: white;
@@ -37,13 +43,14 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 40px;
 }
 .introduce {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    witdh: 100%;
+    width: 100%;
 }
 .left, .right {
     padding: 20px;
@@ -122,4 +129,32 @@ button {
     text-align: right;
     max-width: 800px;
     margin: 0 auto;
+}
+.sign-up {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 1000px;
+    background-color: #3B82F6;
+    color: white;
+    border-radius: 8px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sign-up h3 {
+    font-size: 24px;
+    font-weight: 900;
+}
+.sign-up p {
+    font-size: 16px;
+}
+.sign-up button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #3B82F6;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
