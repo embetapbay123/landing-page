@@ -115,6 +115,7 @@ button {
     width: 100%;
     background-color: #E5E7EB;
     text-align: center;
+    padding: 20px;
 }
 .quote-text {
     font-size: 36px;
@@ -160,4 +161,11 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
 }
